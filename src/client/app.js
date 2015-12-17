@@ -11,12 +11,15 @@ import routes from '../routes';
 
 import Application from '../components/Application.react';
 
-LeadFuel.createApplication(() => {
+$('.leadfuel').on('click', (e) => {
 
-  ReactDOM.render(
-    <Router history={createMemoryHistory()}>{routes}</Router>,
-    document.getElementById('leadfuel')
-  );
+  LeadFuel.createApplication(() => {
+
+    ReactDOM.render(
+      <Router history={createMemoryHistory()}>{routes}</Router>,
+      document.getElementById('leadfuel')
+    );
+
+  });
 
 });
-

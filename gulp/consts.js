@@ -33,7 +33,7 @@ export default {
   BUILD_PATH: './public',
 
   /** @constant {string} SASS_ENTRY_FILE Emplacement du fichier .scss à convertir */
-  SASS_ENTRY_FILE: './src/assets/sass/style.sass',
+  SASS_ENTRY_FILE: './src/assets/sass/style.scss',
 
   /** @constant {string} SCRIPT_FILES Emplacement des fichiers .js des plugins à compresser */
   SCRIPT_FILES: ['./src/assets/js/**/**.js'],
